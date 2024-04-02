@@ -1,0 +1,45 @@
+.cart {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .item {
+    margin-bottom: 10px;
+  }
+  
+  .quantity {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .plus,
+  .minus {
+    background-color: #eee;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  .remove,
+  .like {
+    background-color: #eee;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  .like.liked {
+    color: red;
+  }
+  
+  .price {
+    float: right;
+  }
+  
+  .total {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
